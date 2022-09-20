@@ -3,7 +3,8 @@ import React from 'react'
 
 export const CartWidget = () => {
     return ( 
-        <i className="bi bi-camera2"></i>
+        
+        <i class="bi bi-cart4"></i>
      );
 }
  
