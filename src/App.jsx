@@ -16,8 +16,8 @@ function App() {
   return (    
     <>
       <BrowserRouter>
-        <NavBar /> 
         <CartContext.Provider value='Fede'> 
+        <NavBar /> 
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
           <Route path='/categoria/:categoriaId' element={<ItemListContainer />} />
